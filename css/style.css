@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+.background-image {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+  display: block;
+  background-image: url('../assets/fcHouse2.png');
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+
+
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);
+}
+
+.foreground {
+  left: 0;
+  right: 0;
+  z-index: 9000;
+}
+.container.foreground {
+  position: relative;
+  left: 0;
+  right: 0;
+  z-index: 2;
+    height: auto;
+}
+body{
+    font-family: Lora, serif;
+    color: white;
+    height: auto;
+    margin-bottom: -20px;
+}
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.ic_crest_64 {
+    float: left;
+    position: fixed;
+}
+
+.nav.navbar-nav.navbar-right > .active > a{
+    background-color: #a8fcb0;
+}
+.nav.navbar-nav.navbar-right{
+    margin: 7px 0px;
+}
+@media (min-width: 768px) {
+    .nav.navbar.navbar-right {
+        float:right;
+    }
+}
+.active{
+    height: auto;
+    width: auto;
+}
+.fuckingMove{
+    left: 71px;
+    top: 7px;
+}
+.fuckingMove.navbar-brand{
+    color: #324f08;
+}
+.collapse.navbar-collapse.navHeaderCollapse{
+    padding-left: 15px;
+}
+
+.spacer{
+    width: auto;
+    height: 69px;
+}
+.artMoon{
+    position: absolute;
+    font-family: Lora, serif;
+    font-size: 32px;
+    top: 10px;
+    left: 70px;
+    /*color: #a8fcb0;*/
+}
+.navbar-toggle.collapsed {
+    height: 47px;
+}
+
+@media screen and (max-width: 1170px) {
+    #TS3 {
+    visibility: hidden;
+    }
+    .col-md-2 {
+        width: 0;
+    }
+    .col-md-10 {
+        width: 100%;
+    }
+}
+@media (max-width: 480px) {
+    .artMoon{
+    font-family: Lora, serif;
+    font-size: 20px;
+    top: 20px;
+    }
+    .navbar-toggle{
+        margin-right: 0;
+    }
+}
+.icon-bar {
+    background-color: white;
+}
+.panel-transparent {
+    background: none;
+}
+.panel-transparent .panel-body{
+        background: rgba(46, 51, 56, 0.7)!important;
+}
+.center {
+    margin: auto;
+    width: 70%;
+}
+label{
+    font-family: Lora, serif;
+    color: white;
+}
+#roster{
+    color:black;
+}
+#nav{
+    position: relative;
+    z-index: 9999;
+}
